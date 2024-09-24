@@ -31,7 +31,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: download assets
-      run: wget https://66f14481ef2bafc92c23fa2e--funny-stardust-e951cc.netlify.app/assets.epk -O ./assets.epk
+      run: wget https://files.catbox.moe/61zb3k.epk -O ./assets.epk
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v3
       with:
